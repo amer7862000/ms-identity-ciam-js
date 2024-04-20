@@ -19,7 +19,7 @@ import {
 export const msalConfig: Configuration = {
   auth: {
     clientId: '30f7e190-ef9c-4019-96f0-143f647c4cb8', // This is the ONLY mandatory field that you need to supply.
-    authority: 'https://amertenant.onmicrosoft.com/', // Replace the placeholder with your tenant subdomain
+    authority: 'https://amertenant.ciamlogin.com/', // Replace the placeholder with your tenant subdomain
     redirectUri: '/', // Points to window.location.origin by default. You must register this URI on Azure portal/App Registration.
     postLogoutRedirectUri: '/', // Points to window.location.origin by default.
   },
